@@ -115,7 +115,7 @@
 </div>
   <div class="col-md-2"> 
 <!-- sidenav -->
-<h1>hey</h1>
+<h1>hay</h1>
   </div>
  </div>
  
