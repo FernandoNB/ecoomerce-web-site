@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce</title>
+
+    <link rel="stylesheet" href="index.css" />
     
     <!-- boostrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
       </script>
-   
+
+
    <!-- font awesome link -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -81,45 +85,128 @@
    <div class="col-md-10">
     <!-- products -->
      <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 mb-2">
         <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="products/n3.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">view more</a>
   </div>
 </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-2">
       <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="products/n2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">view more</a>
   </div>
 </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-2">
       <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="products/n1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">view more</a>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4 mb-2 ">
+      <div class="card">
+  <img src="products/n1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">view more</a>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4 mb-2">
+      <div class="card">
+  <img src="products/n1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">view more</a>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4 mb-2">
+      <div class="card">
+  <img src="products/n1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-info">Add to cart</a>
+    <a href="#" class="btn btn-secondary">view more</a>
   </div>
 </div>
       </div>
      </div>
 </div>
-  <div class="col-md-2"> 
-<!-- sidenav -->
-<h1>hay</h1>
+  <div class="col-md-2 bg-secondary p-0"> 
+    <!-- brads to be diaplayed -->
+<ul class="navbar-nav me-auto text-center">
+  <li class="nav-item bg-info">
+    <a href="#" class="nav-link text-light "><h4>Delivery Brands</h4></a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-light ">Brand1</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-light ">Brand2</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-light ">Brand4</a>
+  </li>
+  <li class="nav-item">
+  <a href="#" class="nav-link text-light ">Brand5</a>
+  </li>
+  <li class="nav-item">
+  <a href="#" class="nav-link text-light ">Brand6</a>
+  </li>
+  
+</ul>
+
+<!-- categories to be displayed -->
+
+<ul class="navbar-nav me-auto text-center">
+  <li class="nav-item bg-info">
+    <a href="#" class="nav-link text-light "><h4>categories</h4></a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-light ">categories1</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-light ">categories2</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link text-light ">categories3</a>
+  </li>
+  <li class="nav-item">
+  <a href="#" class="nav-link text-light ">categories4</a>
+  </li>
+  <li class="nav-item">
+  <a href="#" class="nav-link text-light ">categories5</a>
+  </li>
+  
+</ul>
   </div>
  </div>
  
-
+<!-- last child -->
+<div class="bg-info p-3 text-center">
+  <p>All rights reserved @- Web by Fernando-2022</p>
+</div>
 
 
 
